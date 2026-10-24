@@ -9,7 +9,7 @@ import Footer from './components/Footer';
 
 function App() {
   return (
-    <div dir="rtl" className="min-h-screen bg-brand-bg text-white font-sans selection:bg-brand-teal selection:text-brand-bg">
+    <div id="top" dir="rtl" className="min-h-screen bg-brand-bg text-white font-sans selection:bg-brand-teal selection:text-brand-bg">
       <Navbar />
       <main className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <Hero />
